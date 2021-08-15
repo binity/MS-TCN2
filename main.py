@@ -15,7 +15,7 @@ torch.manual_seed(seed)
 torch.cuda.manual_seed_all(seed)
 torch.backends.cudnn.deterministic = True
 
-console.
+console.log('lz')
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--action', default='train')
